@@ -1,22 +1,23 @@
 import './styles/App.css';
-import randomizer from './helpers/randomizer';
-import queryId from './helpers/queryId';
+import Header from './components/Header'
+import Body from './components/Body'
+import { useState } from 'react';
 
 function App() {
+  const [level, setLevel] = useState(3)
 
-  const query = async () => {
-    let randomCharIdArr = [...randomizer(5)]
-    console.log(randomCharIdArr)
-    for(const id of randomCharIdArr){
-      let data = await queryId(id)
-      console.log(data)
-    }
+  const restartGame = () => {
+
+  }
+
+  const continueNextLevel = () => {
+
   }
 
   return (
     <div className="App">
-      <div>Click to fetch random Character</div>
-      <button onClick={query}>Query</button>
+      <Header />
+      <Body level={level} />
     </div>
   )
 }

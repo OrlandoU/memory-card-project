@@ -3,7 +3,7 @@ export default function randomizer(size){
     while(charArr.size < size){
         charArr.add(getRandomNum())
     }
-    return charArr
+    return [...charArr]
 }
 
 function getRandomNum(){
