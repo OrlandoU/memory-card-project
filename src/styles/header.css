@@ -14,21 +14,23 @@
     font-weight: 900;
     font-size: 2.5rem;
     text-shadow: 7px 4px 0px rgba(0, 0, 0, 0.578);
-    -webkit-text-stroke: 1px rgb(0, 255, 0);
+    -webkit-text-stroke: 0.5px rgb(0, 255, 0);
     font-family: 'RickFont';
     animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 .scores-container{
-    border-top: 2px solid #0090FF;
+    border-top: 2px solid #003f6e;
     font-size: 1.2rem;
     display: flex;
     gap: 20px;
     padding: 10px;
 }
 .score{
-    color: #0090FF;
-    text-shadow: 2px 1px 2px rgb(0, 0, 0);
-}
+    color: transparent;
+    background-clip: text;
+    background-image: url('https://i.pinimg.com/736x/c8/a3/22/c8a322cef359b31e07a772e33df1aefb.jpg');
+    background-size: 100% 100%;
+  }
 
 @keyframes focus-in-contract-bck {
     0% {

@@ -1,11 +1,31 @@
 .App {
   text-align: center;
-  background-color: #1C2A45;
   display: flex;
   padding: 20px;
   height: 100vh;
   gap: 20px;
   flex-direction: column;
+  position: relative;
+  background-color: #282c34dc;
+  box-shadow: inset 0px 0px 10px 10px #282c34;
+}
+.App::after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background-image: url('https://freight.cargo.site/t/original/i/cc1440b20fff209e1189aa7a75f9863c404a660a3548202295e1991430ba746a/pattern2Final.jpg');
+  background-size: 100% 100%;
+  filter: blur(8px);
+  animation: rotateHue 5s infinite linear;
+}
+@keyframes rotateHue{
+  0%{
+    filter: hue-rotate(0deg) blur(8px);
+  }
+  100%{
+    filter: hue-rotate(360deg) blur(8px);
+  }
 }
 
 .App-logo {
@@ -48,3 +68,62 @@
   src: url("../../public/RickandMorty.ttf");
   }
 
+  .lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ripple div {
+    position: absolute;
+    border: 4px solid #fff;
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  .lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+  }
+  @keyframes lds-ripple {
+    0% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+    4.9% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 0;
+    }
+    5% {
+      top: 36px;
+      left: 36px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 0px;
+      left: 0px;
+      width: 72px;
+      height: 72px;
+      opacity: 0;
+    }
+  }
+  .loading-screen{
+    position: absolute;
+    inset: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .loading-screen.active{
+    display: flex
+  }
+  .loading-screen.active~div{
+    display: none;
+  }

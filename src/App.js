@@ -27,6 +27,9 @@ function App() {
   return (
     <div className="App">
       <Header crrScore={level - 3} bestScore={bestScore}/>
+      <div className="loading-screen active">
+            <div className="lds-ripple"><div></div><div></div></div>
+      </div>
       <Body continueNextLevel={continueNextLevel} restartGame={restartGame} level={level} />
     </div>
   )
