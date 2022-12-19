@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.57d057a5.css",
-    "main.js": "/react-gh-pages/static/js/main.7e069c3f.js",
-    "static/media/RickandMorty.ttf": "/react-gh-pages/static/media/RickandMorty.c3d1dfc692e3547fed16.ttf",
-    "index.html": "/react-gh-pages/index.html",
-    "main.57d057a5.css.map": "/react-gh-pages/static/css/main.57d057a5.css.map",
-    "main.7e069c3f.js.map": "/react-gh-pages/static/js/main.7e069c3f.js.map"
+    "main.css": "/memory-card-project/static/css/main.ce1ad819.css",
+    "main.js": "/memory-card-project/static/js/main.7e069c3f.js",
+    "static/media/RickandMorty.ttf": "/memory-card-project/static/media/RickandMorty.c3d1dfc692e3547fed16.ttf",
+    "index.html": "/memory-card-project/index.html",
+    "main.ce1ad819.css.map": "/memory-card-project/static/css/main.ce1ad819.css.map",
+    "main.7e069c3f.js.map": "/memory-card-project/static/js/main.7e069c3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.57d057a5.css",
+    "static/css/main.ce1ad819.css",
     "static/js/main.7e069c3f.js"
   ]
 }
