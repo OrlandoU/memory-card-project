@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-color: #1C2A45;
+  display: flex;
+  padding: 20px;
+  height: 100vh;
+  gap: 20px;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -36,3 +42,9 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "RickFont";
+  src: url("../../public/RickandMorty.ttf");
+  }
+
