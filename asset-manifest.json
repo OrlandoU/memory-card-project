@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.57d057a5.css",
+    "main.js": "/react-gh-pages/static/js/main.7e069c3f.js",
+    "static/media/RickandMorty.ttf": "/react-gh-pages/static/media/RickandMorty.c3d1dfc692e3547fed16.ttf",
+    "index.html": "/react-gh-pages/index.html",
+    "main.57d057a5.css.map": "/react-gh-pages/static/css/main.57d057a5.css.map",
+    "main.7e069c3f.js.map": "/react-gh-pages/static/js/main.7e069c3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57d057a5.css",
+    "static/js/main.7e069c3f.js"
+  ]
+}
