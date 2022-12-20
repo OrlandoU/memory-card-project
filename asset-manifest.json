@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/memory-card-project/static/css/main.2a10b5ea.css",
-    "main.js": "/memory-card-project/static/js/main.9ebe0d96.js",
+    "main.css": "/memory-card-project/static/css/main.c0a873bc.css",
+    "main.js": "/memory-card-project/static/js/main.7e069c3f.js",
     "static/media/RickandMorty.ttf": "/memory-card-project/static/media/RickandMorty.c3d1dfc692e3547fed16.ttf",
     "index.html": "/memory-card-project/index.html",
-    "main.2a10b5ea.css.map": "/memory-card-project/static/css/main.2a10b5ea.css.map",
-    "main.9ebe0d96.js.map": "/memory-card-project/static/js/main.9ebe0d96.js.map"
+    "main.c0a873bc.css.map": "/memory-card-project/static/css/main.c0a873bc.css.map",
+    "main.7e069c3f.js.map": "/memory-card-project/static/js/main.7e069c3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a10b5ea.css",
-    "static/js/main.9ebe0d96.js"
+    "static/css/main.c0a873bc.css",
+    "static/js/main.7e069c3f.js"
   ]
 }
