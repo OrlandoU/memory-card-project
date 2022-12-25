@@ -19,7 +19,7 @@ export default function Card(props) {
     return (
         <div style={{ order: props.order }} className="card-container" onClick={saveClick}>
             <div className="card">
-                <img className="card-img" src={props.imgUrl} alt={props.name} />
+                <img className="card-img" src={props.imgUrl} alt={props.name} onLoad={()=>{}}/>
                 <div className="character-name">{props.name}</div>
             </div>
             <img src={props.imgUrl} className='card-background' alt="" />
